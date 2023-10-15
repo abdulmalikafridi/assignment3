@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Here is the collection of color to use it */
+
+:root {
+    --primary-color: #36C2EE;
+    --heading-2-color: #807d7d;
+    --button-color: #7d7b7b;
+    --stats-h3-color: #3abbafba;
+    --black-color: #000;
+    --white-color: #fff;
+}
+
+h2{
+    margin-bottom: 12px;
+    font-size: 30px;
+    color:var(--heading-2-color);
+}
+h3 {
+    font-size: 40px;
+    margin-bottom: 4px;
+    color:var(--stats-h3-color);
+}
+h4 {
+    font-size: 20px;
+    margin-bottom: 4px;
+    color:rgb(207, 205, 205);
+}
+h5{
+    color:rgb(207, 205, 205);
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    color:var( --button-color);
+}
+
+ 
+img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* This is Home Section  */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* this is text-container having heading, paragraph, and link button... */
+
+.text-container {
+    width:30%;
+}
+button {
+    padding: 6px 10px;
+    border: none;
+    color: var(--white-color);
+    border-radius: 20px;
+    background-color:var(--primary-color) ;
+}
+button:hover {
+    color:var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    transition: 0.5s;
+}
+
+.img-container {
+    width: 220px;
+    margin-left: 3rem;
+    margin-bottom:-130px;
+}
+
+/* background-image of box section */
+.img-div {
+    width: 100%;
+    background-image: url(../images/img.jfif);
+    background-position: center;
+    background-size: cover;
+    background-image: no-repeat;
+}
+
+.box-div {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0px;
+
+}
+
+.box-1 {
+    text-align: center;
+    width: 270px;
+    margin-right: 20px;
+}
+.box-1 p{
+    color:rgb(189, 187, 187);
+}
+
+/* this is Mission section */
+.text-area {
+    margin-top: 40px;
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+.text-area p{
+    color:rgb(189, 187, 187);
+    margin-bottom:10px;
+}
+.two-boxes{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10px;
+}
+.box{
+    width:350px;
+    color:#fff;
+    border:1px dashed #cfcfcf;
+    padding: 100px 0px;
+    text-align:center;
+    margin-right:25px;  
+}
+footer{
+    color:rgb(189, 187, 187);
+    text-align:center;
+}
